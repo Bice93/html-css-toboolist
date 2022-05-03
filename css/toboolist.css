@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 header{
-    background-color: white;
+    background-color: rgb(245, 245, 245);
 }
 
 #logo{
@@ -27,21 +31,40 @@ header{
 
 .body-container{
     padding: 30px;
-    background-color: rgb(218, 218, 245);
+    background-color: rgb(41, 36, 33);
 }
 
 .body{
-    width: 1000px;
+    width: 700px;
     margin: auto;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
 }
 
-.button{
+.button-task, .button-section{
     margin: 10px 0;
+    background-color: rgb(47, 165, 255);
+    border-radius: 5px;
+    padding: 4px;
+    border: 1px solid rgb(29, 185, 251);
+    color: white;
+    font-weight: bolder;
+}
+
+.button-section{
+    background-color: white;
+    border: 1px solid grey;
+    color: rgb(120, 120, 120);
+    
+}
+
+hr{
+    background-color: rgb(41, 36, 33);
+    border: 1px solid rgb(41, 36, 33);
 }
 
 .position{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .folder-title{
@@ -49,26 +72,81 @@ header{
     font-weight: bolder;
 }
 
-.material-icons {
-   vertical-align: middle;
-   size: 30px;
-   /* color:green; */
-   margin-right: 5px;
-}
-
 .text{
     font-size: 20px;
+    font-weight:lighter;
     line-height: 40px;
 }
 
 .editorial{
-    background-color: rgb(185, 185, 235);
-    border-radius: 4px;
-    font-size: 15px;
-    padding:4px;
+    background-color: rgb(142, 142, 220);
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    padding:5px;
 }
 
 .section-task{
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 30px;
+    margin-top: 20px; 
+}
+
+.check{
+    margin-right: 10px;
+    font-size: 10px;
+    border-radius: 50px;
+    border: 2px solid green;
+    color:green;
+    padding:2px;
+    font-weight:bold;
+}
+
+.cross{
+    margin-right: 10px;
+    font-size: 10px;
+    border-radius: 50px;
+    border: 2px solid red;
+    color:red;
+    padding:2px;
+    font-weight: bold;
+}
+
+.goals{
+    background-color: rgb(45, 211, 198);
+    border-radius: 5px;
+    font-size: 10px;
+    padding:5px;
+    font-weight: bold;
+}
+
+.recruiting{
+    background-color: rgb(235, 103, 219);
+    border-radius: 5px;
+    font-size: 10px;
+    padding:5px;
+    font-weight: bold;
+}
+
+.mobile{
+    background-color: rgb(243, 128, 82);
+    border-radius: 5px;
+    font-size: 10px;
+    padding:5px;
+    font-weight: bold;
+}
+
+.website{
+    background-color: rgb(253, 7, 7);
+    border-radius: 5px;
+    font-size: 10px;
+    padding:5px;
+    font-weight: bold;
+}
+
+.sales{
+    background-color: rgb(123, 255, 182);
+    border-radius: 5px;
+    font-size: 10px;
+    padding:5px;
+    font-weight: bold;
 }

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/toboolist.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,30 +17,37 @@
         </div>
     </header>
 
+    <!-- corpo pagina -->
     <main>
         <div class="body-container">
             <div class="body">
                 <div class="position">
-                    <input class="button" type="button" value="Add Task">
-                    <input class="button" type="button" value="Add Section">    
+                    <input class="button-task" type="button" value="Add Task">
+                    <input class="button-section" type="button" value="Add Section">    
                 </div>
                 
                 <hr>
-
+                <!-- section new task -->
                 <section class="section-task">
-                    <div class="folder-title"> &#9662; New Task</div>
-                    <div class="text"><i class="material-icons">&#xe86c;</i>Quarterly Newsletter <span class="editorial">Editorial</span></div>   
+                    <div class="folder-title"> &#9662;New Task</div>
+                    <div class="text"> <span class="check"> &check; </span> Quarterly Newsletter <span class="editorial">Editorial</span></div>   
                 </section>
-
+                <!-- section today -->
                 <section class="section-task">
-                    <div class="folder-title"> &#9662; Today</div>
-                    <div class="text"><i class="material-icons">&#xe86c;</i>Recruiting blog post <span class="editorial">Editorial</span></div> 
-                    <div class="text"><i class="material-icons">&#xe86c;</i>Mobile app luaunch <span class="goals">Q1 Goals</span></div>
-                    <div class="text"><i class="material-icons">&#xe888;</i>Interview John H. <span class="recruiting">Recruiting</span></div>
-                    <div class="text"><i class="material-icons">&#xe86c;</i>Summit updateto mobile storefronts <span class="mobile">Mobile</span></div>
+                    <div class="folder-title"> &#9662;Today</div>
+                    <div class="text"><span class="check"> &check; </span>Recruiting blog post <span class="editorial">Editorial</span></div> 
+                    <div class="text"><span class="check"> &check; </span>Mobile app luaunch <span class="goals">Q1 Goals</span></div>
+                    <div class="text"><span class="cross"> &cross; </span>Interview John H. <span class="recruiting">Recruiting</span></div>
+                    <div class="text"><span class="check"> &check; </span>Summit updateto mobile storefronts <span class="mobile">Mobile</span></div>
                 </section>
-
-                
+                <!-- section upcoming -->
+                <section class="section-task">
+                    <div class="folder-title"> &#9662;Upcoming</div>
+                    <div class="text"><span class="cross"> &cross; </span> Schedule meeting with Alex</div> 
+                    <div class="text"><span class="check"> &check; </span> Homepage refresh <span class="website">Website</span></div>
+                    <div class="text"><span class="check"> &check; </span> Onboard new Sales team members <span class="sales">Sales</span></div>
+                    <div class="text"><span class="check"> &check; </span> Review editorial calendar <span class="editorial">Editorial</span></div>
+                </section>               
 
             </div>
         </div>
