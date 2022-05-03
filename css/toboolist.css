@@ -24,3 +24,51 @@ header{
 .header-block{
     padding: 15px;
 }
+
+.body-container{
+    padding: 30px;
+    background-color: rgb(218, 218, 245);
+}
+
+.body{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+.button{
+    margin: 10px 0;
+}
+
+.position{
+    margin-left: 20px;
+}
+
+.folder-title{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.material-icons {
+   vertical-align: middle;
+   size: 30px;
+   /* color:green; */
+   margin-right: 5px;
+}
+
+.text{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.editorial{
+    background-color: rgb(185, 185, 235);
+    border-radius: 4px;
+    font-size: 15px;
+    padding:4px;
+}
+
+.section-task{
+    margin-left: 20px;
+    margin-top: 20px;
+}
